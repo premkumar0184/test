@@ -291,8 +291,8 @@ def main():
             print(f"An error occurred in main loop: {e}")'''
     print("Hello")
 
-        print(f"Waiting for 3 hours before next execution...")
-        time.sleep(3*60*60)  # Sleep for 3 hours
+        #print(f"Waiting for 3 hours before next execution...")
+        #time.sleep(3*60*60)  # Sleep for 3 hours
 
 if __name__ == "__main__":
     main()
