@@ -64,7 +64,7 @@ client3 = tweepy.Client(
 )
 
 # URL of the YouTube Short
-'''video_url = "https://www.youtube.com/shorts/pWAqeig94sU"
+video_url = "https://www.youtube.com/shorts/pWAqeig94sU"
 
 # Download the video
 #download_youtube_short(video_url)
@@ -163,7 +163,7 @@ def download_and_get_info(url):
             }
     except Exception as e:
         print(f"An error occurred during download: {str(e)}")
-        return None'''
+        return None
 
 def download_and_get_info(url):
     """Download video and return video information"""
