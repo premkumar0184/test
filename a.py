@@ -139,7 +139,7 @@ def process_next_url(urls,urlpath,api,client):
     else:
         print("Failed to download video")
 
-'''def download_and_get_info(url):
+def download_and_get_info(url):
     """Download video and return video information"""
     ydl_opts = {
         'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',  # Prefer MP4 format
@@ -294,4 +294,4 @@ def main():
         time.sleep(3*60*60)  # Sleep for 3 hours
 
 if __name__ == "__main__":
-    main()'''
+    main()
