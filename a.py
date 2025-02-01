@@ -263,7 +263,7 @@ def main():
 
         print(f"Waiting for 3 hours before next execution...")
         time.sleep(500)  # Sleep for 3 hours"""
-    while True:
+    '''while True:
         print("\nStarting YouTube Short to Twitter process...")
         try:
             urls = read_urls_file('urls2.txt')
@@ -288,7 +288,8 @@ def main():
             else:
                 print("No URLs found in urls.txt")
         except Exception as e:
-            print(f"An error occurred in main loop: {e}")
+            print(f"An error occurred in main loop: {e}")'''
+    print("Hello")
 
         print(f"Waiting for 3 hours before next execution...")
         time.sleep(3*60*60)  # Sleep for 3 hours
