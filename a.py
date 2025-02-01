@@ -64,7 +64,7 @@ client3 = tweepy.Client(
 )
 
 # URL of the YouTube Short
-video_url = "https://www.youtube.com/shorts/pWAqeig94sU"
+'''video_url = "https://www.youtube.com/shorts/pWAqeig94sU"
 
 # Download the video
 #download_youtube_short(video_url)
@@ -294,4 +294,4 @@ def main():
         time.sleep(3*60*60)  # Sleep for 3 hours
 
 if __name__ == "__main__":
-    main()
+    main()'''
